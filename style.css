@@ -1,13 +1,15 @@
+@font-face {
+    font-family: 'top';
+    src: url('Coffee\ Spark.ttf') format('truetype');
+}
+
+
 :root{
     --cor-fundo: #01080E;
     --cor-principal: #1c0331 ;
     --cor-secundaria: #18121a;
     --cor-destaque: #7207ec;
     --cor-texto: #ffffff;
-}
-@font-face {
-    font-family: 'top';
-    src: url('Coffee\ Spark.ttf') format('truetype');
 }
 
 body{
@@ -40,7 +42,7 @@ h1{
     transition: background-color 0.3s;
 }
 
-button:hover{
+.button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
