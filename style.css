@@ -7,7 +7,7 @@
 :root{
     --cor-fundo: #01080E;
     --cor-principal: #1c0331 ;
-    --cor-secundaria: #18121a;
+    --cor-secundaria: #c41db6;
     --cor-destaque: #7207ec;
     --cor-texto: #ffffff;
 }
@@ -23,17 +23,17 @@ body{
 
 .caixa-principal{
     background-color: var(--cor-principal);
-    width: 40%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 600px;
     text-align: center;
     padding: 20px;
 }
 
 h1{
     color: var(--cor-destaque);
-    font-family: 'top', sans-serif;
 }
-.button{
+
+button{
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
@@ -42,7 +42,7 @@ h1{
     transition: background-color 0.3s;
 }
 
-.button:hover{
+button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
